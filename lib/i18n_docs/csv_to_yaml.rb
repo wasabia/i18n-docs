@@ -71,6 +71,11 @@ module I18nDocs
           raise "Error around key '#{keys.join '.'}': Expected #{memo.inspect} to be a Hash"
         end
       end
+
+      puts "-----------------------------------"
+      puts value.inspect
+      puts "--------------------------------------"
+
       data_hash[leaf] = value
     end
 
